@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER Magnus.Kessler@gmx.net
+LABEL maintainer="Magnus Kessler <Magnus.Kessler@gmx.net>"
 
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm/jre
 
