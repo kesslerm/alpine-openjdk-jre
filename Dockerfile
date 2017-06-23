@@ -3,7 +3,7 @@ LABEL maintainer="Magnus Kessler <Magnus.Kessler@gmx.net>"
 
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm/jre
 
-RUN apk upgrade --update-cache; \
+RUN apk update; \
     apk add openjdk8-jre; \
     rm -rf /tmp/* /var/cache/apk/*
 
